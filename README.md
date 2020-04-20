@@ -187,6 +187,40 @@ false || false ==  false
 !false == true
 ```
 
+#### Conditionals
+
++ If, else if and else 
+
+```
+if (condition) {
+    code to execute if the condition is true
+} else if (condition) {
+    code to execute if the condition is true and the first is false
+} else {
+    else, run this code
+}
+```
++ Switch 
+```
+switch (expression or value) {
+  case choice1:
+    run this code
+    break;
+  case choice2:
+    run this code instead
+    break;
+  // include as many cases as you like
+
+  default:
+    actually, just run this code
+}
+```
++ Ternary
+```
+( condition ) ? run this code : run this code instead   
+```
+
+
 ## ECMAScript
 <p align="center">
     <img width="150px" height="150px" src="https://raw.githubusercontent.com/wingsuitist/ecmascript-logo/master/es-ecmascript-logo.png" alt="ECMAScript logo"/>
