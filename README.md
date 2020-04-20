@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="250px" height="250px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/800px-Unofficial_JavaScript_logo_2.svg.png" alt="Javascript logo"/>
+    <img width="200px" height="200px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/800px-Unofficial_JavaScript_logo_2.svg.png" alt="Javascript logo"/>
 </p>
 
 # Learning JavaScript
@@ -49,7 +49,8 @@ Exemples of Data Types:
 ```
 - String
 
-A string (or a text string) is a series of characters. String in JavaScript can be used with just one quote or double quotes
+A string (or a text string) is a series of characters. 
+String in JavaScript can be used with just one quote or double quotes
 
 var name = 'Vinicius'; // Using one quote
 var name = "Lima"; // Using double quotes
@@ -73,7 +74,8 @@ var human = false;
 ```
 - Array
 
-JavaScript arrays are written with square brackets []. Array items are separated by commas.
+JavaScript arrays are written with square brackets []. 
+Array items are separated by commas.
 Array indexes are zero-based, which means the first item is [0], second is [1], and so on.
 
 var grades = [10, 20, 30, 40];
@@ -81,7 +83,8 @@ var grades = [10, 20, 30, 40];
 ```
 - Object
 
-JavaScript objects are written with curly braces {}. Object properties are written as name:value pairs, separated by commas.
+JavaScript objects are written with curly braces {}. 
+Object properties are written as name:value pairs, separated by commas.
 
 var person : {
     name: 'Vinicius',
@@ -106,6 +109,61 @@ var name = null;
 ```
 
 P.S: The ```typeof``` operator returns a string that indicates the data type.
+
+#### Math operations
+
++ Addition (+)
+```
+var x = 10;
+var y = 5;
+var s = x + y;
+15
+```
++ Subtraction (-)
+```
+var x = 10;
+var y = 5;
+var s = x - y;
+5
+```
++ Multiplication (*)
+```
+var x = 10;
+var y = 5;
+var s = x * y;
+50
+```
++ Division (/)
+```
+var x = 10;
+var y = 5;
+var s = x / y;
+2
+```
++ Modulus (%)
+```
+var x = 10;
+var y = 5;
+var s = x % y;
+0
+```
++ Increment (++)
+```
+var x = 10;
+x++;
+11
+```
++ Decrement (--)
+```
+var x = 10;
+x--;
+10
+```
++ JavaScript Operator Precedence Values
+1. ()
+2. Power
+3. Multiplication (*), Division (/), Modulus (%)
+4. Addition (+), Subtraction (-)
 
 ## ECMAScript
 <p align="center">
