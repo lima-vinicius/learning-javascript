@@ -165,6 +165,28 @@ x--;
 3. Multiplication (*), Division (/), Modulus (%)
 4. Addition (+), Subtraction (-)
 
+#### Logical operators
+
++ And (&&)
+```
+true && true == true
+true && false == false
+false && true == false 
+false && false ==  false
+```
++ Or (||)
+```
+true || true == true
+true || false == true
+false || true == true 
+false || false ==  false
+```
++ Not (!)
+```
+!true == false 
+!false == true
+```
+
 ## ECMAScript
 <p align="center">
     <img width="150px" height="150px" src="https://raw.githubusercontent.com/wingsuitist/ecmascript-logo/master/es-ecmascript-logo.png" alt="ECMAScript logo"/>
